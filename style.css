@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+/* @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,700,
+600italic,400italic,600,800italic,800,700italic);
+*/
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  background: #263238;
+}
+
+h1, h2 {
+  font-family: "Droid Serif", serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.3em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 1.35em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 0.95em;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+p strong {
+  font-weight: 400;
+}
+
+svg {
+  height: 36px;
+  width: 36px;
+  fill: #00363a;
+}
+
+svg:hover {
+  fill: #428e92;
+}
+
+#first-box {
+  color: #ffffff;
+  background: #006064;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+  position: fixed;
+}
+
+#profile-pic {
+  height: 11%;
+  width: 11%;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

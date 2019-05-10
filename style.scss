@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Source+Serif+Pro');
+
+$sourceSansPro: "Source Sans Pro", sans-serif;
+$sourceSerifPro: "Source Serif Pro", serif;
+$openSans: "Open Sans", sans-serif;
+
+$primaryColorGrey: #263238;
+$primaryColorLightGrey: #4f5b62;
+$primaryColorDarkGrey: #000a12;
+
+$primaryColorCyan: #006064;
+$primaryColorLightCyan: #428e92;
+$primaryColorDarkCyan: #00363a;
+
+$materialBlueGrey: #37474f;
+$materialLightBlueGrey: #62727b;
+$materialDarkBlueGrey: #102027;
+
+body {
+	font-family: $sourceSansPro;
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	min-width: 100%;
+	min-height: 100%;
+	height: 100%;
+	width: 100%;
+	background: $primaryColorGrey;
+}
+
+h1, h2 {
+	font-family: $sourceSerifPro;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 2.3em;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+
+h2 {
+	font-size: 1.35em;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+  text-decoration:none;
+}
+
+p {
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 0.95em;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+p strong {
+	font-weight: 400;
+}
+
+svg {
+	height: 36px;
+	width: 36px;
+	fill: $materialBlueGrey;
+}
+
+svg:hover {
+	fill: $materialDarkBlueGrey;
+}
+
+#first-box {
+	color: #ffffff;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	width: 100%;
+	top: 10%;
+	text-align: center;
+	position: fixed;
+}
+
+#profile-pic {
+	height: 11%;
+	width: 11%;
+	border-radius: 50%;
+}

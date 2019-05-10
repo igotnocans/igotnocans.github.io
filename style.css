@@ -57,10 +57,12 @@ svg {
 
 svg:hover {
   fill: #102027;
+
 }
 
 #first-box {
   color: #ffffff;
+  background: #006064;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   width: 100%;

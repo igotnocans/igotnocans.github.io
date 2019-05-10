@@ -1,1 +1,1 @@
-This is the second version of my website made in May 2019.
+This is the GitHub Repository for my personal website.

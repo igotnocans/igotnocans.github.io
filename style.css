@@ -8,52 +8,44 @@ body {
   min-height: 100%;
   height: 100%;
   width: 100%;
-  background: #263238;
-}
+  background: #263238; }
 
 h1, h2 {
-  font-family: "Source Serif Pro", serif;
-}
+  font-family: "Source Serif Pro", serif; }
 
 h1 {
   font-weight: 900;
   font-size: 2.3em;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 h2 {
   font-size: 1.35em;
   margin-top: 0;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
 
 a, a:hover, a:active, a:visited, a:focus {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 p {
   font-weight: 300;
   color: #ffffff;
   font-size: 0.95em;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; }
 
 p strong {
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 svg {
   height: 36px;
   width: 36px;
-  fill: #37474f;
-}
+  fill: #37474f; }
 
 svg:hover {
-  fill: #102027;
-}
+  fill: #fff;
+  transition: fill .4s ease; }
 
 #first-box {
   color: #ffffff;
@@ -62,13 +54,9 @@ svg:hover {
   width: 100%;
   top: 10%;
   text-align: center;
-  position: fixed;
-}
+  position: fixed; }
 
 #profile-pic {
   height: 11%;
   width: 11%;
-  border-radius: 50%;
-}
-
-/*# sourceMappingURL=style.css.map */
+  border-radius: 50%; }

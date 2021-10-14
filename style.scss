@@ -69,7 +69,8 @@ svg {
 }
 
 svg:hover {
-	fill: $materialDarkBlueGrey;
+	fill: #fff;
+	transition: fill .4s ease;
 }
 
 #first-box {
